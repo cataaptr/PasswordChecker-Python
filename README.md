@@ -1,8 +1,8 @@
-# 🔑 PasswordChecker-Python
+# 🔑 Password Checker
 
 This is a Python project designed for verifying password integrity.
 
-# 🪄 Key features of the project:
+# 💡 Key features of the project:
 1. Password Validation:
    - The password must be at least 8 characters long.
    - It must contain at least one lowercase letter, one uppercase letter, one special character (such as !, @, #, etc.), and one digit.
