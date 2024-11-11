@@ -4,15 +4,17 @@ This is a Python project designed for verifying password integrity.
 
 # 🪄 Key features of the project:
 1. Password Validation:
-   -The password must be at least 8 characters long
-   -It must contain at least one lowercase letter, one uppercase letter, one special character (such as !, @, #, etc.), and one digit
-2. Password Dictionary Check:
+   	-The password must be at least 8 characters long
+   	-It must contain at least one lowercase letter, one uppercase letter, one special character (such as !, @, #, etc.), and one digit
+   
+3. Password Dictionary Check:
 	- I created a password dictionary, but it contains basic passwords that adhere to the rules mentioned above (such as having a minimum length, at least one lowercase letter, one uppercase letter, one special character, and one digit)
-3. Password Report:
-   -To generate the report, I created a new window called "Data Input," where the user enters details such as their name, surname, birthdate (with regex validation), pet's name, and parents' names. The system then generates easily guessable passwords based on these combinations and common digits. I used permutations of length 3 to limit the number of variants and reduce execution complexity, serving an indicative purpose. The user can access the generated passwords by opening the "Report" window.
 
-4. User Interface:
-   -The project uses Python's Tkinter for a simple GUI where users input passwords, with feedback on their strength through warnings or success messages.
+4. Password Report:
+   	-To generate the report, I created a new window called "Data Input," where the user enters details such as their name, surname, birthdate (with regex validation), pet's name, and parents' names. The system then generates easily guessable passwords based on these combinations and common digits. I used permutations of length 3 to limit the number of variants and reduce execution complexity, serving an indicative purpose. The user can access the generated passwords by opening the "Report" window.
+
+5. User Interface:
+  	 -The project uses Python's Tkinter for a simple GUI where users input passwords, with feedback on their strength through warnings or success messages.
 
 # 📸 Photos
 ![0](https://github.com/cataaptr/ToDoList-C-sharp/assets/128240441/3c2c13fa-bf32-45f6-9883-78740933c197)
